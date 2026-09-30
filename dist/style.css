@@ -15,3 +15,5 @@
 .brand{gap:16px}.brand>span{font-family:'DM Sans',Arial,sans-serif;font-weight:500;letter-spacing:-.8px}@media(max-width:720px){.brand{gap:12px}.brand>span{font-size:25px}}
 
 .celebration + .visit{margin-top:75px}@media(max-width:720px){.celebration + .visit{margin-top:40px}}
+
+.footer-links{display:flex;align-items:center;gap:22px;font-size:14px}.social-links{display:flex;align-items:center;gap:8px}.social-links a{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;color:var(--ink);transition:background .2s,color .2s}.social-links a:hover{background:var(--champagne);color:var(--gold)}.social-links svg{width:20px;height:20px;display:block}@media(max-width:720px){.footer-links{width:100%;justify-content:center;flex-wrap:wrap;gap:18px}}
