@@ -1,0 +1,5 @@
+photo-originals/
+*-preview.png
+preview.png
+.DS_Store
+.sites-runtime/
