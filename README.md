@@ -1,12 +1,30 @@
-# Honey Tree homepage mockup
+# Honey Tree
 
-A local, static design preview. Serve dist with a local HTTP server.
+The Honey Tree website, featuring our cheesecakes, celebration cakes, shop information, and WhatsApp enquiries.
 
-Before launch: add approved customer testimonials and the shop street address. Menu photos, descriptions and Rs. 850 prices are supplied by the owner; opening hours are Friday–Sunday, 3 PM–10 PM. WhatsApp enquiries connect to +94 76 445 0763 with a prefilled message; customers send the message themselves. The hero photograph is supplied by the owner. The supplied Google Maps link is connected and the verified shop coordinates are embedded.
+## Project structure
 
-## Illustrative image sources
-- Cake: https://unsplash.com/es/fotos/un-pastel-blanco-con-fresas-encima-AhocFfcntPE (Shine_ Photos)
-- Cupcakes: https://unsplash.com/photos/baked-cupcakes-wlRDakuhzoo
-- Croissants: https://unsplash.com/photos/croissant-on-top-of-stainless-steel-tray-lE5O9DktAQY (Kavita Joshi Rai)
-- License: https://unsplash.com/license
-- Logo supplied by the user, preserved as provided.
+- `index.html` — website content.
+- `style.css` — styles and responsive layouts.
+- `script.js` — website interactions and WhatsApp enquiries.
+- `assets/` — website photographs and the Honey Tree logo.
+- `build.mjs` — prepares the files for Sites hosting.
+- `.openai/hosting.json` — Sites hosting configuration.
+
+## Local preview
+
+Serve the repository root with a local HTTP server:
+
+```sh
+python3 -m http.server 8000
+```
+
+Open http://localhost:8000 in your browser. No build step is required.
+
+## Sites hosting
+
+Run `node build.mjs` before publishing with Sites. This copies the website files into an ignored `dist/` deployment folder. Edit the source files at the repository root; generated deployment files are not committed.
+
+## Images
+
+All photographs are original images captured by the Honey Tree owner. The website uses no Unsplash or stock photographs. The Honey Tree logo is supplied by the owner.
