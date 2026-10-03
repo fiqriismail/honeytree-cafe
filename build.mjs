@@ -7,7 +7,7 @@ const output = new URL('dist/', root);
 rmSync(output, { recursive: true, force: true });
 mkdirSync(output, { recursive: true });
 
-for (const entry of ['index.html', 'style.css', 'script.js', 'assets']) {
+for (const entry of ['index.html', 'style.css', 'script.js', 'assets', 'menu']) {
   cpSync(new URL(entry, root), fileURLToPath(new URL(entry, output)), {
     recursive: true,
   });
