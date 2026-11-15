@@ -33,6 +33,8 @@ The homepage cheesecake and brownie links open the Honey Tree Uber Eats shop; cu
 
 Run `node build.mjs` before publishing with Sites. This copies the website files into an ignored `dist/` deployment folder. Edit the source files at the repository root; generated deployment files are not committed.
 
+When changing `style.css`, update its `v` query parameter in both `index.html` and `menu/index.html` so visitors receive the new styles instead of a cached copy.
+
 ## Images
 
 All photographs are original images captured by the Honey Tree owner. The website uses no Unsplash or stock photographs. The Honey Tree logo is supplied by the owner.
