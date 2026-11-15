@@ -8,6 +8,7 @@
 .menu-kicker { color: #806337; font-size: 12px; font-weight: 600; letter-spacing: 1.6px; margin-bottom: 12px; }
 .menu-intro h1 { font-size: clamp(48px, 10vw, 68px); margin-bottom: 18px; }
 .menu-intro > p:last-child { color: var(--muted); margin-bottom: 0; max-width: 32ch; }
+.menu-section + .menu-section { margin-top: 40px; }
 .menu-section-heading { border-bottom: 1px solid var(--line); display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-bottom: 16px; }
 .menu-section-heading h2 { font-size: 32px; margin: 0; }
 .menu-section-heading span { color: var(--muted); font-size: 14px; }
